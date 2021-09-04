@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello World!"
+title:  "Hello World!! 🌎"
 date:   2021-09-04 17:19 +1200
 categories: life
 ---
