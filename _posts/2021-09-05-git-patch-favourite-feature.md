@@ -14,9 +14,9 @@ categories: git sourcecontrol software
 
 I've long been an advocate for Git GUI software due to the ease and visualisation they provide in handling advanced Git operations. But perhaps that is only because there are some tips & tricks I did not know about the Git CLI?
 
-Of course I could hold my own in the CLI for basic every-day tasks like adding files, commiting to a repository, checking previous commits or even re-writing the commit history. But there was one task which always saw me reaching for my trusty Git GUI.
+Of course I could hold my own in the CLI for basic every-day tasks like adding files, committing to a repository, checking previous commits or even re-writing the commit history. But there was one task which always saw me reaching for my trusty Git GUI.
 
-A messy working tree. This is the situation which would ideally be avoided but all too often becomes a development reality. Each modification to a file since the last commit gets added to your Git working tree until such time as you plan your next commit. In situaitons where you make changes across several files, your working tree can become unwieldy with changes which:
+A messy working tree. This is the situation which would ideally be avoided but all too often becomes a development reality. Each modification to a file since the last commit gets added to your Git working tree until such time as you plan your next commit. In situations where you make changes across several files, your working tree can become unwieldy with changes which:
   * you might not remember
   * you may not require any more
   * should be refactored 
