@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Git Patch: My favourite little-known feature"
+slug: "git-patch-my-favourite-feature"
 date:   2021-09-05 15:00:00 +1200
 categories: git sourcecontrol software
 ---
