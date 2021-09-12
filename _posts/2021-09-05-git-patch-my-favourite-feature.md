@@ -3,6 +3,7 @@ layout: post
 title:  "Git Patch: My favourite little-known feature"
 date:   2021-09-05 15:00:00 +1200
 categories: git sourcecontrol software
+slug: git-patch-favourite-feature
 ---
 <style type="text/css">
   .center-image {
