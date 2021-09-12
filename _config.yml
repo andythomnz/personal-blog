@@ -33,7 +33,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-permalink: /:year/:month/:title
+permalink: /posts/:year/:month/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
