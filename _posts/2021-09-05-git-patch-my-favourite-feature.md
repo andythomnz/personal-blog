@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: article
 title:  "Git Patch: My favourite little-known feature"
-date:   2021-09-05 15:00:00 +1200
 categories: git sourcecontrol software
 slug: git-patch-favourite-feature
 ---
@@ -24,13 +23,13 @@ A messy working tree. This is the situation which would ideally be avoided but a
 
 You know you're in this situation when you run `git status` and are presented with a lengthy list of files to deal with...
 
-![Git status with messy working tree](/assets/git-patch/git-status.png){: width="500" .center-image }
+![Git status with messy working tree](/assets/images/posts/2021-09-05-git-patch-my-favourite-feature/git-status.png){: width="500" .center-image }
 
 ## Solution 1 - The Gamble (don't do this)
 
 One approach which I sometimes see is developers relying on the old faithful `git add .` which stages the entire working tree (or `git add file` to stage an entire file) as part of your next commit. Of course, this often isn't desirable and when the changes are later reviewed (i.e. visualised via a pull request) it results in some of the changes being later removed. 
 
-![Or not...](/assets/git-patch/git-add-all.webp){: width="200" .center-image }
+![Or not...](/assets/images/posts/2021-09-05-git-patch-my-favourite-feature/git-add-all.webp){: width="200" .center-image }
 
 ## Solution 2 - The GUI
 
@@ -43,7 +42,7 @@ The other approach is my trusty Git GUI. I can see each changed line in a file (
 
 In the below screenshot I give an example of how simple this is using my GUI of choice, Source Tree, although most will be similar. 
 
-![Sourcetree Git GUI](/assets/git-patch/source-tree.png){: width="750" .center-image }
+![Sourcetree Git GUI](/assets/images/posts/2021-09-05-git-patch-my-favourite-feature/source-tree.png){: width="750" .center-image }
 
 ## Solution 3 - The CLI patch
 
@@ -59,7 +58,7 @@ git add -p # for short
 
 When you run the add-patch command, the CLI will step through each hunk of changes and display the diff for you to review. See below:
 
-![Git add patch](/assets/git-patch/git-add-patch.png){: width="750" .center-image }
+![Git add patch](/assets/images/posts/2021-09-05-git-patch-my-favourite-feature/git-add-patch.png){: width="750" .center-image }
 
 You'll notice the diff shown here (1 of 3) is the same as the first hunk which Sourcetree highlighted earlier in the GUI method.
 
@@ -83,7 +82,7 @@ The `s`plit option is especially helpful if the hunk is too large. You can use t
 
 After answering the question the CLI moves on to the next hunk, prompting you again and again until each piece of your working tree has been decided. At which point you are ready to write a sensible commit message and move on with your life. Nice one 👍
 
-![Git Joke: In case of fire, git commit, git push, then leave the building](/assets/git-patch/in-case-of-fire.png){: width="250" .center-image }
+![Git Joke: In case of fire, git commit, git push, then leave the building](/assets/images/posts/2021-09-05-git-patch-my-favourite-feature/in-case-of-fire.png){: width="250" .center-image }
 
 ## But, why?
 
